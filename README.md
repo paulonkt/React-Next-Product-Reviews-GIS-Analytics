@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Product Reviews & Ratings
 
-## Getting Started
+A modern, responsive product review website built with **Next.js 14**, **React**, **Tailwind CSS**, and **shadcn/ui**. Inspired by sites like *Wirecutter* and *Good Housekeeping*, this project allows users to explore product categories, read expert and user reviews, and leave their own ratings.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🗂️ Product categories (e.g., Foods, Hotels)
+- 🌟 Product info + user ratings
+- 🧾 LocalStorage-based review persistence
+- 🧩 Dynamic components with lazy loading
+- 💬 Review form with validation
+- ⭐ Custom star rating component
+- 📱 Fully responsive UI
+- 💅 Styled with Tailwind CSS & shadcn/ui
+- 🚀 Optimized using Next.js App Router
+
+---
+
+## 🧱 Tech Stack
+
+- [Next.js 14 (App Router)](https://nextjs.org)
+- [React 19](https://react.dev)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Lucide Icons](https://lucide.dev)
+- [TypeScript](https://www.typescriptlang.org)
+
+---
+
+## 📦 Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/paulonkt/React-Next-Product-Reviews-GIS-Analytics.git
+cd product-reviews
+
+# Install dependencies
+npm install
+
+# Run the app locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
