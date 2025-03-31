@@ -34,7 +34,7 @@ A modern, responsive product review website built with **Next.js 14**, **React**
 ```bash
 # Clone the repo
 git clone https://github.com/paulonkt/React-Next-Product-Reviews-GIS-Analytics.git
-cd product-reviews
+cd React-Next-Product-Reviews-GIS-Analytics
 
 # Install dependencies
 npm install
